@@ -1,0 +1,29 @@
+{
+	"name": "adriano/shopper-point",
+	"description": "Shopper Point is an online store website developed in PHP. This project aims to demonstrate my web development skills and serve as an example for my developer portfolio.",
+	"type": "project",
+	"license": "MIT License",
+	"autoload": {
+		"psr-4": {
+			"Src\\": "Src/"
+		}
+	},
+	"scripts": {
+		"serve": "php -S localhost:8000 -t public"
+	},
+	"authors": [
+		{
+			"name": "Adriano Miranda",
+			"email": "adrjmiranda@gmail.com"
+		}
+	],
+	"require": {
+		"vlucas/phpdotenv": "^5.6",
+		"slim/slim": "4.*",
+		"slim/psr7": "^1.7",
+		"twig/twig": "^3.0"
+	},
+	"config": {
+		"process-timeout": 0
+	}
+}
